@@ -4,6 +4,10 @@
 
 #include "audio.h"
 
+SpuCommonAttr l_c_attr;
+SpuVoiceAttr  g_s_attr;
+unsigned long l_vag1_spu_addr;
+
 void audioInit() {
 	//SpuInitMalloc (SOUND_MALLOC_MAX, SPU_MALLOC_RECSIZ * (SOUND_MALLOC_MAX + 1));
     DsInit();
