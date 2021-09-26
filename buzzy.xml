@@ -149,7 +149,7 @@
 		
 	</track>
 
-	<track type="audio" source="sound/music/output.wav"/>
+	<track type="audio" source="sound/music/beeztheme.wav"/>
 	<!-- Specifies CD-DA audio tracks to the CD image
 	
 		WAV files must be in Microsoft format, 44100KHz 16-bit stereo, uncompressed. Mkpsxiso will not perform
